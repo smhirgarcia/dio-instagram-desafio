@@ -1,0 +1,144 @@
+
+html {
+  background-color: #fafafa;
+  display: inherit;
+  font-family: "Montserrat", sans-serif;
+  height: calc(1vw- (20%));
+  justify-content: center;
+ 
+  max-width: 1vw;
+  min-width: 480px;
+  text-align: center;
+}
+body {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  
+}
+.body__container1 {
+  align-content: space-between;
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: auto;
+  margin-right: 1rem;
+  padding-right: 3em;
+  position: relative;
+}
+.container1__image {
+  display: block;
+  height: 700px;
+  width: 700px;
+}
+.body__container1_login {
+  align-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: #ededed 1px solid;
+  display: flex;
+  flex: 1 1 1;
+  flex-direction: column;
+  height: 400px;
+  margin-bottom: 0;
+  margin-top: 7%;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+.body__container1_login a {
+  color: #385185;
+  font-weight: bold;
+  text-decoration: none;
+}
+.body__login__links:nth-child(2) {
+  color: pink;
+  font-size: large;
+}
+#instagram-logo {
+  margin: 2rem;
+}
+.body__login__form {
+  align-items: stretch;
+  text-align: center;
+}
+.login__campo {
+  border: black solid 0.7px;
+  border-radius: 5px;
+  display: inline-flex;
+  height: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  width: 90%;
+}
+.login__botao-enviar {
+  align-items: center;
+  background-color: #b2dffc;
+  border: none;
+  border-radius: 15px;
+  color: #fafafa;
+  font-size: medium;
+  height: 3rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1rem;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  text-align: match-parent;
+  width: 90%;
+}
+.login--texto-menor {
+  font-size: 0.7em;
+  font-weight: lighter;
+}
+.body__container2 {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border: #ededed 1px solid;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-right: 2em;
+  padding-top: 1.3rem;
+  text-align: center;
+  width: 100%;
+}
+.body__container2 a {
+  color: #0195f6;
+  font-weight: bold;
+  text-decoration: none;
+}
+.body__container3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+}
+.container3__lojas { 
+  display: inline-flex;
+  flex-direction: row;
+   justify-content: space-around;
+  
+}
+.container3__loja {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.5em;
+  max-width: 50%;
+  width: fit-content;
+  
+  
+  
+}
+@media (max-width: 480px) {
+  .container1__image {
+    display: none;
+  }
+}
